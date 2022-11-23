@@ -1,0 +1,34 @@
+
+body{
+    background: skyblue !important;
+}
+
+.header-title{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+.card-title{
+    text-align: center;
+}
+
+.col-6{
+    padding: 80px;
+    margin-left: 450px;
+}
+
+.card{
+    max-width: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-label{
+    float: left;
+}
+
+.links{
+    margin-top: 15px;
+}

@@ -1,0 +1,58 @@
+* {
+    font-family: "Heebo", sans-serif;
+  }
+
+body{
+    background: skyblue !important;
+}
+.header-title{
+    padding-top: 5px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color:white;
+}
+
+
+header {
+  background-image: linear-gradient(cornflowerblue, skyblue);
+}
+
+.card-body {
+    background-image: linear-gradient(white, azure);
+}
+.card {
+    border: 0;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.btn {
+    background-color:navy;
+}
+
+footer {
+   position: fixed;
+   margin: 100px;
+padding-left: 1200px;
+padding-top: 100px;
+}
+
+.col-4 {
+    padding-left: 570px;
+    padding-bottom: 25px;
+}
+
+.modal.fade .modal-dialog {
+    width:30%;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    margin:0;
+    opacity: 90%;
+}

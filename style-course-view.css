@@ -39,8 +39,10 @@ background-image: linear-gradient(
 
 .card:hover{
     transform:scale(1.05);
-    box-shadow: 0px 5px 10px black !important;
+    transition: transform 300ms ease-in-out;
+    box-shadow: 0px 15px 20px -3px black !important;
 }
+
 
 .btn {
     background-color:navy;

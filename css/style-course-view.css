@@ -46,6 +46,7 @@ background-image: linear-gradient(
 
 .btn {
     background-color:navy;
+    border: 0;
 }
 
 footer {
@@ -67,4 +68,9 @@ padding-top: 90px;
     right:10px;
     margin:0;
     opacity: 90%;
+}
+
+#btn_logout, #studentRoster {
+    background-color: transparent;
+    border-bottom: 3px solid white;
 }

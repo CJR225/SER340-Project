@@ -10,7 +10,7 @@ example: ex4-JS-validate from class-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In Page</title>
-    <link rel="stylesheet" href="SignInSignUpStyle.css">
+    <link rel="stylesheet" href="../css/SignInSignUpStyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
@@ -28,10 +28,11 @@ example: ex4-JS-validate from class-->
             else
                 alert("Redirecting to home page")
                 //here write code to redirect to homepage
+                location.href="../indexes/course-view-student.html"
         }
     </script>
     <div>
-        <img src="mouse.jpg" alt="mouse image" width="40px" height="40px" style="margin-left: 480px; margin-top:50px; margin-bottom: -60px;">
+        <img src="../img/mouse2.png" alt="mouse image" width="40px" height="40px" style="margin-left: 450px; margin-top:30px; margin-bottom: -50px;">
         <h1 class="header-title" style="text-emphasis:bold;">Welcome to Auto Grader</h1>
     </div>
    
@@ -55,11 +56,12 @@ example: ex4-JS-validate from class-->
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="passwordID" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="check()">Sign In</button>
+                        <!--<button type="submit" class="btn btn-primary" onclick="check()" >Sign In</button>-->
+                        <a class="btn btn-primary" href="../indexes/courses-view-student.html" id="signIn" role="button">Sign In</a>
                     </form>
                     <div class="links">
                         <div class="row">
-                            <a href="" class="link">Forgot your password?</a>
+                            <a href="#" class="link">Forgot your password?</a>
                         </div>
                         <div class="row">
                             <a href="SignUp.html" class="link">Create an account</a>

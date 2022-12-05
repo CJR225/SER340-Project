@@ -1,3 +1,8 @@
+<!--Sign Up html
+By: Emily Balboni 
+SER 340 Final Project 
+sources used: https://stackoverflow.com/questions/15987140/how-to-check-if-an-item-is-selected-from-an-html-drop-down-list
+example: ex4-JS-validate from class-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In Page</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="SignInSignUpStyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
@@ -13,10 +18,23 @@
 </head>
 
 <header>
+    <script>
+        function check()
+        { 
+            if(document.getElementById("usernameID").value == "")
+                alert("Please enter your username");
+            else if(document.getElementById("passwordID").value == "")
+                alert("Please enter your password");
+            else
+                alert("Redirecting to home page")
+                //here write code to redirect to homepage
+        }
+    </script>
     <div>
         <img src="mouse.jpg" alt="mouse image" width="40px" height="40px" style="margin-left: 480px; margin-top:50px; margin-bottom: -60px;">
         <h1 class="header-title" style="text-emphasis:bold;">Welcome to Auto Grader</h1>
     </div>
+   
 </header>
 
 <body>
@@ -31,13 +49,13 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" >
+                            <input type="text" class="form-control" id= "usernameID"placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" >
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
+                            <input type="password" class="form-control" id="passwordID" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign In</button>
+                        <button type="submit" class="btn btn-primary" onclick="check()">Sign In</button>
                     </form>
                     <div class="links">
                         <div class="row">

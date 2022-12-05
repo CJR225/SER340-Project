@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Student View</title>
+    <link rel="stylesheet" href="AssignmentViewStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<header>
+    <div>
+        <img src="mouse.jpg" alt="mouse image" width="40px" height="40px" style="margin-left: 480px; margin-top:50px; margin-bottom: -60px;">
+        <h1 class="header-title" style="text-emphasis:bold;">Auto Grader</h1>
+    </div>
+</header>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Course Home</a>
+              <a class="nav-link" href="#">Home Page</a>
+              <a class="nav-link" href="#">Log out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container text-center">
+        <div class="row align-items-start">
+          <h3 style="margin-bottom:100px">Assignment 1</h3>
+        </div>
+        <div class="row-2">
+            <col-3> 
+                <div class="block1" style="margin:10px;"> 
+                    <h4>Instructions</h4> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolorem soluta aliquid modi eos earum et. 
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolorem soluta aliquid modi eos earum et
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolorem soluta aliquid modi eos earum et
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolorem soluta aliquid modi eos earum et
+                    </p>
+                </div>
+            </col-3>
+            <col-9>
+                <h4>Submissions</h4> 
+            </col-9>
+         </div>
+    <div class="row-3">
+        <button type="button" class="btn btn-light" style="width: 200px;" data-bs-toggle="modal" data-bs-target="#uploadfile-modal">Upload File</button>
+        <button type="button" class="btn btn-light" style="width: 200px;"data-bs-toggle="modal" data-bs-target="#submit-modal">Submit</button>
+    </div>
+</div>
+
+<div class="modal fade" id="uploadfile-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">File Explorer</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Please Select A file.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Select File</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="submit-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Assignment Complete</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Work Submitted! 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

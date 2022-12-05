@@ -1,0 +1,26 @@
+body{
+    background: skyblue !important;
+}
+
+.header-title{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.block1{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+    float: left;
+}
+
+.row-3{
+    padding-top: 350px;
+    margin-left: -100px;
+    float: left;
+}

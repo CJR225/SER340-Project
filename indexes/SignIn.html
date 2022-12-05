@@ -20,17 +20,16 @@ example: ex4-JS-validate from class-->
 <header>
     <script>
         function check()
-        { 
+        {
             if(document.getElementById("usernameID").value == "")
                 alert("Please enter your username");
             else if(document.getElementById("passwordID").value == "")
                 alert("Please enter your password");
             else
-                alert("Redirecting to home page")
-                //here write code to redirect to homepage
-                location.href="../indexes/course-view-student.html"
+                window.open("C:\Users\ebalb\OneDrive\Desktop\SER340GIT\SER340-Project\indexes\courses-view-student.html");
         }
     </script>
+
     <div>
         <img src="../img/mouse2.png" alt="mouse image" width="40px" height="40px" style="margin-left: 450px; margin-top:30px; margin-bottom: -50px;">
         <h1 class="header-title" style="text-emphasis:bold;">Welcome to Auto Grader</h1>
@@ -56,8 +55,8 @@ example: ex4-JS-validate from class-->
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="passwordID" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
                         </div>
-                        <!--<button type="submit" class="btn btn-primary" onclick="check()" >Sign In</button>-->
-                        <a class="btn btn-primary" href="../indexes/courses-view-student.html" id="signIn" role="button">Sign In</a>
+                        <button type="submit" class="btn btn-primary" onclick="check()" >Sign In</button>
+                        <!--<a class="btn btn-primary" href="../indexes/courses-view-student.html" id="signIn" role="button">Sign In</a>-->
                     </form>
                     <div class="links">
                         <div class="row">

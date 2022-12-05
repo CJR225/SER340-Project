@@ -1,0 +1,52 @@
+* {
+    font-family: "Heebo", sans-serif;
+  }
+
+body{
+    background-image: linear-gradient(
+    90deg,
+    dodgerblue,
+     skyblue) !important;
+}
+.header-title{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+    color:white;
+    text-shadow: 1.5px 1.5px 4px black;
+}
+
+h5 {
+    color:white;
+    text-shadow: 1.5px 1.5px 4px black;
+    padding-bottom: 10px;
+}
+
+li {
+    color:white;
+    text-shadow: 1.5px 1.5px 4px black;
+    padding-bottom: 10px;
+
+}
+
+header {
+background-image: linear-gradient(
+    135deg,
+    navy,
+     dodgerblue);
+ border-bottom: 3px solid white;
+}
+
+.btn {
+    border: 0;
+}
+
+#btn_logout, #studentRoster, #btnCourses {
+    background-color: transparent;
+    border-bottom: 3px solid white;
+}

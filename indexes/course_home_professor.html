@@ -11,13 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Heebo&family=Rubik:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style_course_home.css" />
+    <link rel="stylesheet" href="../css/style_course_home.css" />
     <title>Course View</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 840px; margin-top:30px; margin-bottom: -50px;">
+            <img src="../img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 840px; margin-top:30px; margin-bottom: -50px;">
             <h1 class="header-title fw-bold">Auto-Grader</h1>
         </div>
     </header>
@@ -27,10 +27,13 @@
     <div class="container pt-5">
         <div class="row pt-3">
             <div class="col-1">
-                <a class="btn btn-primary" href="SignIn.html" id="btn_logout" role="button">Logout</a>
+                <a class="btn btn-primary" href="../indexes/SignIn.html" id="btn_logout" role="button">Logout</a>
             </div>
             <div class="col-1">
-                <a class="btn btn-primary" href="courses-view-student.html" id="btnCourses" role="button">Courses</a>
+                <a class="btn btn-primary" href="../indexes/courses-view-professor.html" id="btnCourses" role="button">Courses</a>
+            </div>
+            <div class="col-1">
+                <a class="btn btn-primary" href="../indexes/student-roster-screen.html" id="studentRoster" role="button">Students</a>
             </div>
         </div>
 
@@ -38,7 +41,7 @@
       <div class="col-6 "> 
       <h3 class=" fs-3">CSC215</h1>
       </div>
-     
+    
     </div>
     <div class="row">
         
@@ -78,7 +81,9 @@
         <p class="col-4">November 25, 2022</p>
         
     </div>
-    </div>
+
+    <div class="col-4"><input class="btn btn-primary" type="button" value="Create assignment"></div>
+
     </main>
 
 </body>

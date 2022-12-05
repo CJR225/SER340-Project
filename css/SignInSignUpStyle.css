@@ -1,14 +1,16 @@
 
 body{
-    background: skyblue !important;
+    background-image: linear-gradient(
+    90deg,
+    dodgerblue,
+     skyblue) !important;
 }
 
 .header-title{
     padding-top: 10px;
     text-align: center;
     color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px black;
 }
 .card-title{
     text-align: center;

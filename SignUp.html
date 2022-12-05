@@ -31,11 +31,12 @@ example: ex4-JS-validate from class-->
       alert("Please select a user type");
     else
       alert("Form has been submitted");
-      location.href="SignIn.html";
       redirectToCourse()
+      
     }
     function redirectToCourse()
     {
+      location.href="SignIn.html";
       var userName = document.getElementById("userID").value
       var userPass = document.getElementById("passID").value
       var userType = document.selectedValue == "selectUser".value

@@ -13,17 +13,25 @@ body{
     padding-bottom: 30px;
     text-align: center;
     color: white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
 
 h3 {
     color:white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
 h5 {
     color:white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
 
 p{
     color:white;
+}
+
+
+.btn {
+    border: 0;
 }
 
 header {
@@ -47,6 +55,7 @@ background-image: linear-gradient(
 
 .btn {
     background-color:navy;
+    color:white;
 }
 
 footer {
@@ -121,4 +130,25 @@ padding-top: 90px;
     right:10px;
     margin:0;
     opacity: 90%;
+}
+
+#btnAssignment {
+    background-color: transparent;
+    color: white;
+    text-shadow: 1.5px 1.5px 4px black;
+    border-bottom: 2px solid white;
+}
+
+li {
+    padding-bottom: 10px;
+    text-shadow: 1.5px 1.5px 4px black;
+}
+
+.block1{
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+    float: left;
 }

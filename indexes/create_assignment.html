@@ -12,61 +12,77 @@
       href="https://fonts.googleapis.com/css2?family=Heebo&family=Rubik:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style_create_assignment.css" />
+    <link rel="stylesheet" href="../css/style_create_assignment.css" />
     <title>Create Assignment</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 840px; margin-top:30px; margin-bottom: -50px;">
+            <img src="../img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 850px; margin-top:30px; margin-bottom: -50px;">
             <h1 class="header-title fw-bold">Auto-Grader</h1>
         </div>
     </header>
 
-
+<div class="container">
 <main>
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-2"><input class="btn btn-primary" type="button" value="Logout"></div>
-            <div class="col-2"><input class="btn btn-primary" type="button" value="Courses"></div>
-            <div class="col-2"><input class="btn btn-primary" type="button" value="Students"></div>
-      
-          </div>
+  <div class="row pt-3 pb-3">
+    <div class="col-1">
+      <a class="btn btn-primary" href="../indexes/SignIn.html" id="btnSignIn">Log out</a>
+    </div>
+    <div class="col-1">
+      <a class="btn btn-primary" href="../indexes/courses-view-student.html" id="btnCourses">Courses</a>
+    </div>
+    <div class="col-1">
+      <a class="btn btn-primary" href="../indexes/course_home_student.html" id="btnCourseHome">Home</a>
+    </div>
+</div>  
 
     </main>
     <form>
-        <div class="col-6">
+      <div class="row">
+        <div class="col-4">
     <div class="input-group mb-3">
         <span class="input-group-text" ></span>
         <input type="text" class="form-control" placeholder="Assignment" aria-label="Assignment" aria-describedby="basic-addon1">
       </div>
     </div>
+  </div>
 
+    <div class="row">
+      <div class="col-4">
       <label for="due">Due date:</label>
 
 <input type="date" id="due" name="due-date"
        value="2022-10-22"
        min="2018-01-01" max="2018-12-31">
-
-   
-        <div class="col-6">
+      </div>
+    </div>
+        <div class="row">
+          <div class="col-4">
       <div class="input-group">
+        
         <span class="input-group-text">Instructions</span>
         <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
     </div>
+  </div>
    
-        <div class="col-6">
+        <div class="row">
+          <div class="col-6">
     <div class="input-group mb-3">
-        <label for="file">Correct output: </label>
+        <label for="file" class="pl-3">Correct output:   </label>
         <input type="file" class="form-control" id="inputGroupFile02">
-        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        <span class="input-group-text" for="inputGroupFile02">Upload</spanl>
       </div>
     </div>
-    
-    <div class="container text-center"><input class="btn btn-primary" type="button" value="Create assignment"></div>
-
-
+    </div>
+    <div class="row">
+    <div class="col-1">
+      <div class="container text-center"><input class="btn btn-primary" type="button" value="Create assignment"></div>
+    </div>
+  </div>
+</form>
+  </div>
 </body>
 
 </html>

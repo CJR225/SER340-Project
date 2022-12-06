@@ -32,6 +32,10 @@ p{
 
 .btn {
     border: 0;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
 
 header {
@@ -51,11 +55,6 @@ background-image: linear-gradient(
 
 .card:hover{
     transform:scale(1.05);
-}
-
-.btn {
-    background-color:navy;
-    color:white;
 }
 
 footer {
@@ -132,12 +131,7 @@ padding-top: 90px;
     opacity: 90%;
 }
 
-#btnAssignment {
-    background-color: transparent;
-    color: white;
-    text-shadow: 1.5px 1.5px 4px black;
-    border-bottom: 2px solid white;
-}
+
 
 li {
     padding-bottom: 10px;

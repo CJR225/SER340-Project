@@ -11,85 +11,62 @@
       href="https://fonts.googleapis.com/css2?family=Heebo&family=Rubik:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/roster-grade.css" />
+    <link rel="stylesheet" href="../css/style_course_home.css" />
     <title>Course View - Student</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="../img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 840px; margin-top:30px; margin-bottom: -50px;">
-            <h1 class="header-title fw-bold">Auto-Grader</h1>
-        </div>
+            <img src="../img/mouse2.png" alt="mouse image" width="40px" height="40px" style="margin-left: 600px; margin-top:30px; margin-bottom: -50px;">
+              <h1 class="header-title fw-bold">Auto-Grader</h1>
+          </div>
     </header>
 
-
-    <div class="container">
-        <div class="row pt-3">
-            <div class="col-1">
-                <a class="btn btn-primary" href="../indexes/SignIn.html" id="btn_logout" role="button">Logout</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="../indexes/courses-view-professor.html">Courses</a>
             </div>
-            <div class="col-1">
-                <a class="btn btn-primary" href="../indexes/courses-view-professor.html" id="btnCourses" role="button">Courses</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="../indexes/course_home_professor.html">Home</a>
             </div>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="../indexes/SignIn.html">Logout</a>
+            </div>
+          </div>
         </div>
-
-
-    </div>
-
+      </nav>
     <main>
-      <div class="container pt-5">
-      <div class="row pb-5">
-        <div class="col"> 
-        <h3 class=" fs-3">Student List</h1>
-        </div>
-        </div>
-        
-
-      </div>
-      </main>
-
-      <section class="container pt-3">
         <div class="row">
-            <div class="col-3">
-        <div>
-            <h5>
-                Student Name
-            </h5>
-        </div>
-            <ul>
-                <li>
-                    Christopher Rocco
-                </li>
-                <li>
-                    Emily Balboni
-                </li>
-                <li>
-                    Amber Kusma
-                </li>
-            </ul>
-        </div>
-        <div class="col-3">
-            <div>
-                <h5>
-                    Course Name
-                </h5>
-            </div>
-                <ul>
-                    <li>
-                        SER340
+            <div class="col-4" style="padding-left:50px;"  id="curAssign">
+                <h5 class="col-4" style="padding-left:200px;">Assignment</h5>
+                <ul style="padding-left: 200px;">
+                    <li style="color:white ; padding-top: 5px;">
+                        Christopher Rocco
                     </li>
-                    <li>
-                        SER340
+                    <li style="color:white ;  padding-top: 5px;">
+                        Emily Balboni
                     </li>
-                    <li>
-                        CSC215
+                    <li style="color:white ; padding-top: 5px;">
+                        Amber Kusma
                     </li>
                 </ul>
+                
             </div>
-    </div>
-      </section>
-      
+            <div class="col-4"id="dueDates">
+                <h5 class="col-4">Course Name</h5>
+                <ul style="margin-right: 205px;">
+                    <p class="col-4" style="padding-top:10px ;">SER 340</p>            
+                    <p class="col-4">CSC 325</p>  
+                    <p class="col-4">SER 491</p>
 
+                </ul>
+            </div>
+        </div>
+    </main>
 </body>
-
 </html>

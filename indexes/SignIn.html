@@ -21,12 +21,15 @@ example: ex4-JS-validate from class-->
     <script>
         function check()
         {
-            if(document.getElementById("usernameID").value == "")
-                alert("Please enter your username");
-            else if(document.getElementById("passwordID").value == "")
-                alert("Please enter your password");
-            else
-                window.open("../indexes/courses-view-student.html");
+        userName = document.getElementById("usernameID").value 
+        if(userName != "eebalboni") 
+            if(userName != "profBlake")
+                alert("Username is not registered. Please enter a valid username.");
+        
+        if(userName == "eebalboni")
+            window.open("../indexes/courses-view-student.html");
+            if(userName == "profBlake")
+                window.open("../indexes/courses-view-professor.html");
         }
     </script>
 
@@ -56,12 +59,8 @@ example: ex4-JS-validate from class-->
                             <input type="password" class="form-control" id="passwordID" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
                         </div>
                         <button type="submit" class="btn btn-primary" onclick="check()" >Sign In</button>
-                        <!--<a class="btn btn-primary" href="../indexes/courses-view-student.html" id="signIn" role="button">Sign In</a>-->
                     </form>
                     <div class="links">
-                        <div class="row">
-                            <a href="#" class="link">Forgot your password?</a>
-                        </div>
                         <div class="row">
                             <a href="SignUp.html" class="link">Create an account</a>
                         </div>

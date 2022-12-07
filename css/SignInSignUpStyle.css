@@ -1,9 +1,11 @@
-
+* {
+    font-family: sans-serif;
+  }
 body{
     background-image: linear-gradient(
-    90deg,
-    dodgerblue,
-     skyblue) !important;
+        135deg,
+        rgb(80, 80, 145),
+        dodgerblue);
 }
 
 .header-title{

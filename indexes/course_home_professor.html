@@ -21,71 +21,76 @@
             <h1 class="header-title fw-bold">Auto-Grader</h1>
         </div>
     </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="../indexes/courses-view-professor.html">Courses</a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-link" href="../indexes/student-roster-screen.html" >Students</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="../indexes/SignIn.html">Logout</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-
-<main>
-    <div class="container pt-5">
-        <div class="row pt-3">
-            <div class="col-1">
-                <a class="btn btn-primary" href="../indexes/SignIn.html" id="btn_logout" role="button">Logout</a>
-            </div>
-            <div class="col-1">
-                <a class="btn btn-primary" href="../indexes/courses-view-professor.html" id="btnCourses" role="button">Courses</a>
-            </div>
-            <div class="col-1">
-                <a class="btn btn-primary" href="../indexes/student-roster-screen.html" id="studentRoster" role="button">Students</a>
-            </div>
+      <main>
+           
+        <div class="row">
+          <div class="col-6 "> 
+          <h3 class=" fs-3" style="margin-left: 700px; " >CSC215</h1>
+          </div>
+         
         </div>
     
-    <div class="row">
-      <div class="col-6 "> 
-      <h3 class=" fs-3">CSC215</h1>
-      </div>
-    
-    </div>
-    <div class="row">
-        
-            <h5 class="col-4">Current assignments</h5>
-            <h5 class="col-4">Due dates</h5>
-            <h5 class="col-4">Past assignments</h5>
-    </div>
-
-    <div class="row">
-        <p class="col-4">Assignment 6</p>
-        <p class="col-4">October 20, 2022</p>
-        <p class="col-4">Assignment 1 Passed</p>
-    </div>
-
-    <div class="row">
-        <p class="col-4">Assignment 7</p>
-        <p class="col-4">October 27, 2022</p>
-        <p class="col-4">Assignment 2 Passed</p>
-    </div>
-    <div class="row">
-        <p class="col-4">Assignment 8</p>
-        <p class="col-4">November 3, 2022</p>
-        <p class="col-4">Assignment 3 Passed</p>
-    </div>
-    <div class="row">
-        <p class="col-4">Assignment 9</p>
-        <p class="col-4">November 10, 2022</p>
-        <p class="col-4">Assignment 4 Passed</p>
-    </div>
-    <div class="row">
-        <p class="col-4">Assignment 10</p>
-        <p class="col-4">November 17, 2022</p>
-        <p class="col-4">Assignment 5 Passed</p>
-    </div>
-    <div class="row">
-        <p class="col-4">Assignment 11</p>
-        <p class="col-4">November 25, 2022</p>
-        
-    </div>
-
-    <div class="col-4"><input class="btn btn-primary" type="button" value="Create assignment"></div>
-
-</div>
-    </main>
+        <div class="row">
+            <div class="col-4" style="padding-left:50px;"  id="curAssign">
+                <h5 class="col-4" style="padding-left:200px;">Assignments</h5>
+                <ul style="padding-left: 200px;">
+                    <li>
+                         <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" role="button">Assignment 1</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" style="margin-top:15px ;" role="button">Assignment 2</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" style="margin-top:15px ;"role="button">Assignment 3</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" style="margin-top:15px ;"role="button">Assignment 4</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" style="margin-top:15px ;"role="button">Assignment 5</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="../indexes/AssignmentViewProfessor.html" id="btnAssignment" style="margin-top:15px ;"role="button">Assignment 6</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="col-4"id="dueDates">
+                <h5 class="col-4">Due Date</h5>
+                <ul style="margin-right: 205px;">
+                    <p class="col-4" >Oct 20, 2022</p>            
+                    <p class="col-4">Oct 27, 2022</p>     
+                    <p class="col-4">Nov 3, 2022</p>
+                    <p class="col-4">Nov 10, 2022</p>
+                    <p class="col-4">Nov 17, 2022</p>
+                    <p class="col-4" >Nov 25, 2022</p>
+                </ul>
+            </div>
+            
+        </div>
+        </main>
+        <div class="col-12">
+            <a class="btn btn-primary" href="../indexes/create_assignment.html" id="btnAssignment" role="button" style="margin-left:900px;">Create Assignment</a>
+        </div>
 
 </body>
 

@@ -15,61 +15,68 @@
     <link rel="stylesheet" href="../css/style_create_assignment.css" />
     <title>Create Assignment</title>
 </head>
+
+<header>
+  <div>
+    <img src="../img/mouse2.png" alt="mouse image" width="40px" height="40px" style="margin-left: 600px; margin-top:30px; margin-bottom: -50px;">
+    <h1 class="header-title fw-bold">Auto-Grader</h1>
+  </div>
+</header>
+
 <body>
-    <header>
-        <div>
-            <img src="../img/mouse2.png" alt="mouse image" width="50px" height="50px" style="margin-left: 850px; margin-top:30px; margin-bottom: -50px;">
-            <h1 class="header-title fw-bold">Auto-Grader</h1>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid" >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../indexes/courses-view-professor.html">Courses</a>
         </div>
-    </header>
-
-<div class="container">
-<main>
-  <div class="row pt-3 pb-3">
-    <div class="col-1">
-      <a class="btn btn-primary" href="../indexes/SignIn.html" id="btnSignIn">Log out</a>
-    </div>
-    <div class="col-1">
-      <a class="btn btn-primary" href="../indexes/courses-view-student.html" id="btnCourses">Courses</a>
-    </div>
-    <div class="col-1">
-      <a class="btn btn-primary" href="../indexes/course_home_student.html" id="btnCourseHome">Home</a>
-    </div>
-</div>  
-
-    </main>
-    <form>
-      <div class="row">
-        <div class="col-4">
-    <div class="input-group mb-3">
-        <span class="input-group-text" ></span>
-        <input type="text" class="form-control" placeholder="Assignment" aria-label="Assignment" aria-describedby="basic-addon1">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../indexes/course_home_professor.html">Home</a>
+        </div>
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="../indexes/SignIn.html">Logout</a>
+        </div>
       </div>
     </div>
-  </div>
+  </nav>
+  
 
-    <div class="row">
-      <div class="col-4">
-      <label for="due">Due date:</label>
+<form>
+  <div class="row">
+    <div class="col-4">
+  <div class="input-group mb-3">
+    <span class="input-group-text" style="margin-top:20px;margin-bottom:20px">Assignment</span>
+    <input type="text" class="form-control"  aria-label="Assignment" aria-describedby="basic-addon1" style="margin-top:20px;margin-bottom:20px">
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+  <label for="due">Due date:</label>
 
 <input type="date" id="due" name="due-date"
        value="2022-10-22"
-       min="2018-01-01" max="2018-12-31">
+       min="2018-01-01" max="2018-12-31"
+       style="margin-top:10px;margin-bottom:10px">
       </div>
     </div>
         <div class="row">
           <div class="col-4">
       <div class="input-group">
         
-        <span class="input-group-text">Instructions</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <span class="input-group-text"style="margin-top:20px;margin-bottom:20px">Instructions</span>
+        <textarea class="form-control" aria-label="With textarea" style="margin-top:20px;margin-bottom:20px"></textarea>
       </div>
     </div>
   </div>
    
         <div class="row">
           <div class="col-6">
-    <div class="input-group mb-3">
+    <div class="input-group mb-3" style="margin-top:20px;margin-bottom:20px">
         <label for="file" class="pl-3">Correct output:   </label>
         <input type="file" class="form-control" id="inputGroupFile02">
         <span class="input-group-text" for="inputGroupFile02">Upload</spanl>
@@ -78,11 +85,11 @@
     </div>
     <div class="row">
     <div class="col-1">
-      <div class="container text-center"><input class="btn btn-primary" type="button" value="Create assignment"></div>
+      <button type="submit" class="btn btn-primary" href="../indexes/course_home_professor.html" style="margin-left:100px; margin-top:50px;margin-bottom: 50px;;">Create Assignment</button>
     </div>
   </div>
 </form>
-  </div>
+  
 </body>
 
 </html>

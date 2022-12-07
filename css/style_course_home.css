@@ -1,11 +1,11 @@
 * {
-    font-family: "Heebo", sans-serif;
+    font-family: sans-serif;
   }
 
 body{
     background-image: linear-gradient(
     90deg,
-    dodgerblue,
+    rgb(158, 198, 238),
      skyblue) !important;
 }
 .header-title{
@@ -18,15 +18,20 @@ body{
 
 h3 {
     color:white;
+    font-weight: bold;
+    text-decoration: underline;
     text-shadow: 1.5px 1.5px 4px black;
 }
+
 h5 {
-    color:white;
-    text-shadow: 1.5px 1.5px 4px black;
+    color:black;
+    text-decoration-color: black;
+    font-weight: bold;
 }
 
 p{
     color:white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
 
 
@@ -35,15 +40,15 @@ p{
     background-color: transparent;
     color: white;
     border-bottom: 3px solid white;
-    text-shadow: 1.5px 1.5px 4px black;
 }
 
 header {
 background-image: linear-gradient(
     135deg,
-    navy,
+    rgb(80, 80, 145),
      dodgerblue);
- border-bottom: 3px solid white;
+ border-bottom: 3px solid black;
+ 
 }
 
 .card-body {
@@ -60,8 +65,8 @@ background-image: linear-gradient(
 footer {
    position: fixed;
    margin: 100px;
-padding-left: 1200px;
-padding-top: 90px;
+    padding-left: 1200px;
+    padding-top: 90px;
 }
 .row{
     width: 100%;
@@ -70,10 +75,6 @@ padding-top: 90px;
     
 }
 
-/* .col-4 {
-    padding-left: 570px;
-    padding-bottom: 25px;
-} */
 .col-1{
     width: 8.33%;
 }

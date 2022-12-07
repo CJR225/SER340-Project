@@ -1,13 +1,11 @@
 * {
-    font-family: "Heebo", sans-serif;
-}
-
-
+    font-family: sans-serif;
+  }
 body{
     background-image: linear-gradient(
-    90deg,
-    dodgerblue,
-     skyblue) !important;
+        135deg,
+        rgb(80, 80, 145),
+        dodgerblue);
 }
 .header-title{
     padding-top: 5px;
@@ -29,17 +27,11 @@ p{
 }
 
 header {
-background-image: linear-gradient(
-    135deg,
-    navy,
-     dodgerblue);
- border-bottom: 3px solid white;
-}
-div{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-   
+    background-image: linear-gradient(
+        135deg,
+        rgb(80, 80, 145),
+        dodgerblue);
+    border-bottom: 3px solid white;
 }
 .due-date{
     padding-bottom: 10px;
@@ -54,6 +46,7 @@ div{
     text-shadow: 1.5px 1.5px 4px black;
     border-bottom: 3px solid white;
 }
+
 
 label {
     color: white;

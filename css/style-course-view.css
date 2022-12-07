@@ -1,12 +1,12 @@
 * {
-    font-family: "Heebo", sans-serif;
+    font-family: sans-serif;
   }
 
 body{
     background-image: linear-gradient(
-    90deg,
-    dodgerblue,
-     skyblue) !important;
+        90deg,
+        rgb(158, 198, 238),
+         skyblue) !important;
 }
 .header-title{
     padding-top: 5px;
@@ -23,11 +23,11 @@ h3 {
 
 
 header {
-background-image: linear-gradient(
+    background-image: linear-gradient(
     135deg,
-    navy,
-     dodgerblue);
- border-bottom: 3px solid white;
+    rgb(80, 80, 145),
+    dodgerblue);
+     border-bottom: 3px solid black;
 }
 
 .card-body {
@@ -45,8 +45,10 @@ background-image: linear-gradient(
 
 
 .btn {
-    background-color:navy;
     border: 0;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid white;
 }
 
 footer {

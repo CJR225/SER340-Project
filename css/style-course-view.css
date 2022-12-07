@@ -5,9 +5,18 @@
 body{
     background-image: linear-gradient(
         90deg,
-        rgb(158, 198, 238),
-         skyblue) !important;
+        rgb(80, 80, 145),
+        dodgerblue) !important;
 }
+
+.navbar {
+    border-bottom: 3px solid black;;
+    }
+
+ .nav-link {
+        color: black;
+ }
+
 .header-title{
     padding-top: 5px;
     padding-bottom: 30px;
@@ -21,13 +30,23 @@ h3 {
     text-shadow: 1.5px 1.5px 4px black;
 }
 
+footer {
+    position: fixed;
+    margin: 100px;
+ padding-left: 1200px;
+ padding-top: 35px;
+ }
+
+ #courseaddbtn {
+    border: 3px solid white;
+ }
 
 header {
     background-image: linear-gradient(
-    135deg,
-    rgb(80, 80, 145),
-    dodgerblue);
-     border-bottom: 3px solid black;
+        90deg,
+        rgb(80, 80, 145),
+        dodgerblue);
+
 }
 
 .card-body {
@@ -51,12 +70,6 @@ header {
     border-bottom: 3px solid white;
 }
 
-footer {
-   position: fixed;
-   margin: 100px;
-padding-left: 1200px;
-padding-top: 90px;
-}
 
 .col-4 {
     padding-left: 570px;

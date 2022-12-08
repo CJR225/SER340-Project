@@ -64,10 +64,9 @@ header {
 
 
 .btn {
-    border: 0;
+    border: 3px solid white;
     background-color: transparent;
     color: white;
-    border-bottom: 3px solid white;
 }
 
 

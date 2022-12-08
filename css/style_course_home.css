@@ -143,8 +143,12 @@ footer {
 
 
 li {
-    padding-bottom: 10px;
+    padding-top: 10px;
     text-shadow: 1.5px 1.5px 4px black;
+}
+p {
+    
+    padding-bottom: 15px;
 }
 
 .block1{
@@ -154,4 +158,9 @@ li {
     width: 500px;
     text-align: left;
     float: left;
+}
+
+#curAssign, #dueDates, #btnAssignment{
+    color: white;
+    text-shadow: 1.5px 1.5px 4px black;
 }
